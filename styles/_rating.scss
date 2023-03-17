@@ -44,6 +44,7 @@ $submitBtnBackgroundColor: hsl(25, 97%, 53%);
             &:hover{
                 background: $hoverColor;
                 color: white;
+                cursor: pointer;
             }         
         }
         .selected{
@@ -65,6 +66,7 @@ $submitBtnBackgroundColor: hsl(25, 97%, 53%);
         &:hover{
             color: $submitBtnBackgroundColor;
             background: white;
+            cursor: pointer;
         }
     }
 }

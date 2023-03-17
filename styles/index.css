@@ -70,6 +70,7 @@ body {
 #rating-container-show #rating-button-container .rating-btn:hover {
   background: hsl(214, 12%, 54%);
   color: white;
+  cursor: pointer;
 }
 #rating-container-show #rating-button-container .selected {
   color: white;
@@ -89,6 +90,7 @@ body {
 #rating-container-show #submit-btn:hover {
   color: hsl(25, 97%, 53%);
   background: white;
+  cursor: pointer;
 }
 
 #rating-container-none {
