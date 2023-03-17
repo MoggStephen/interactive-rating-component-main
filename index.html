@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./styles/index.css">
+  <script src="./index.js" defer></script>
+  <title>Frontend Mentor | Interactive rating component</title>
+</head>
+<body>
+  <main class="rating-component-container">
+
+    <!--  RATING CONTAINER -->
+    <div id="rating-container-show">
+      <img src="./images/icon-star.svg" alt="star icon" class="star">
+      <h1 class="rating-h1">How did we do?</h1>
+      <p class="rating-paragraph">
+        Please let us know how we did with your
+        support request. All feedback is appreciated
+        to help us improve our offering!
+      </p>
+      <div id="rating-button-container">
+        <!--  POPULATED WITH JAVASCRIPT -->
+      </div>
+      <button id="submit-btn">S U B M I T</button>
+    </div>
+
+    <!-- THANK YOU CONTAINER -->
+    <div id="thank-you-container-none">
+      <img src="./images/illustration-thank-you.svg" alt="" class="thank-you-img">
+      <div class="selected">
+        You selected <span id="user-rating"><!--POPULATED WITH JAVACSRIPT--></span> out of 5
+      </div>
+      <h1 class="thank-you-h1">Thank you!</h1>
+      <p class="thank-you-p">
+        We appreciate you taking the time to give a
+        rating. If you ever need more support, don’t
+        hesitate to get in touch!
+      </p>
+    </div>
+  </main>
+
+  <!-- LINKS FOOTER -->
+  <footer class="links" style="position: fixed;bottom: 0;width: 100%;text-align: center;">
+    <a style="text-decoration: none;" target="_blank" href="https://www.frontendmentor.io/profile/MoggStephen">
+      <img src="./images/frontEndMentorIconTransparent.png" alt="Frontend Mentor icon"width="25px">
+    </a>
+    <img style="margin: 0 -8px; opacity: 0.4;" src="./images/separator.png" alt="" width="25px">
+    <a style="text-decoration: none;" target="_blank" href="https://github.com/MoggStephen/">
+      <img src="./images/githubIconTransparent.png" alt="Github icon" width="25px">
+    </a>
+  </footer>
+</body>
+</html>
