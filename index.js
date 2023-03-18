@@ -14,7 +14,7 @@ for (let i = 0; i < 5; i++) {
 }
 
 //SELECTED RATING LOGIC
-const buttons = document.querySelectorAll("div.rating-btn");
+const buttons = document.querySelectorAll("button.rating-btn");
 buttons.forEach(button =>{
     button.addEventListener("click", (event)=>{
 
