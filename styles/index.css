@@ -62,6 +62,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  border: 0;
   color: hsl(221, 8%, 60%);
   font-size: 0.875rem;
   font-weight: 600;
@@ -72,7 +73,7 @@ body {
   color: white;
   cursor: pointer;
 }
-#rating-container-show #rating-button-container .selected {
+#rating-container-show #rating-button-container .rating-btn:focus {
   color: white;
   background: hsl(25, 97%, 53%);
 }

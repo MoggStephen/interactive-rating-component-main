@@ -35,7 +35,7 @@ $submitBtnBackgroundColor: hsl(25, 97%, 53%);
             display: flex;
             justify-content: center;
             align-items: center;
-
+            border: 0;
             color: $paragraphColor;
             font-size: 0.875rem;
             font-weight: 600;
@@ -45,11 +45,11 @@ $submitBtnBackgroundColor: hsl(25, 97%, 53%);
                 background: $hoverColor;
                 color: white;
                 cursor: pointer;
-            }         
-        }
-        .selected{
-            color: white;
-            background: $submitBtnBackgroundColor;
+            }
+            &:focus{
+                color: white;
+                background: $submitBtnBackgroundColor;
+            }       
         }
     }
     #submit-btn{

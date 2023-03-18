@@ -5,7 +5,7 @@ const ratingBtnContainer = document.getElementById("rating-button-container");
 
 //ADD RATING BUTTONS TO DOM!
 for (let i = 0; i < 5; i++) {
-    const ratingBtn = document.createElement("div");
+    const ratingBtn = document.createElement("button");
 
     ratingBtn.classList.add("rating-btn");
     ratingBtn.textContent = i + 1;
@@ -25,9 +25,6 @@ buttons.forEach(button =>{
         buttons.forEach(button => {
             button.classList.remove("selected")
         })
-
-        //THEN CHANGE ELEMENT CHOSEN TO BE SELECTED
-        button.classList.add("selected");
 
         //Set rating with buttons text content
         const userRating = document.getElementById("user-rating");
